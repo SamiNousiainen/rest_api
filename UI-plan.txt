@@ -1,0 +1,9 @@
+colors:
+#885CFF
+#D3FF5C
+rgba(208, 255, 122, 0.466)
+rgb(0, 0, 0)
+#f0f0f0
+
+fonts:
+'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
