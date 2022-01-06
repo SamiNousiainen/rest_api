@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>weather app</title>
+    <title>Jokes of the day</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="content">
+    <div class="joke">
+        <h1>Animal joke of the day</h1>
+        <button onclick="Animal()">animal</button>
+        <div id="animalJoke"></div>
+        <div id="aCopyright"></div>
+    </div>
+
+    <div class="joke">
+        <h1>Knock-knock joke of the day</h1>
+        <button onclick="Knock_Knock()">knock</button>
+        <div id="knockJoke"></div>
+        <div id="kCopyright"></div>
+    </div>
+
+    <div class="joke">
+        <h1>Blonde joke of the day</h1>
+        <button onclick="Blonde()">blonde</button>
+        <div id="blondeJoke"></div>
+        <div id="bCopyright"></div>
+    </div>
+</div>   
+    <script src="code.js"></script>
 </body>
 </html>
