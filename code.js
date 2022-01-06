@@ -24,7 +24,7 @@ function Knock_Knock() {
          document.getElementById("kCopyright").innerHTML = "&copy;" + joke.contents.copyright;
 	 }
     };
-    xhttp.open("GET", "https://api.jokes.one/jod?category=animal", true);
+    xhttp.open("GET", "https://api.jokes.one/jod?category=knock-knock", true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.setRequestHeader("X-JokesOne-Api-Secret", "YOUR API HERE");
     xhttp.send();
